@@ -1,4 +1,4 @@
-package _util
+package util
 
 import (
 	"math/rand"
@@ -27,7 +27,7 @@ func RandomString(n int) string {
 }
 
 // Ramdom name
-func RandomOwener() string {
+func RandomOwner() string {
 	return RandomString(6)
 }
 
