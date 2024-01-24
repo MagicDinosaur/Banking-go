@@ -39,6 +39,6 @@ func RandomMoney() int64 {
 // Random Concurrency
 func RandomConcurrency() string {
 	concurrencies := []string{"USD", "CAD", "QUR"}
-	k := len(concurrencies)
+	k := len(concurrencies) - 1
 	return concurrencies[k]
 }
