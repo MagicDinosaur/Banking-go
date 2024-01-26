@@ -33,7 +33,7 @@ func RandomOwner() string {
 
 // Random Money
 func RandomMoney() int64 {
-	return RandomInt(0, 100000)
+	return RandomInt(1, 100000)
 }
 
 // Random Concurrency
