@@ -42,3 +42,9 @@ func RandomConcurrency() string {
 	k := len(concurrencies) - 1
 	return concurrencies[k]
 }
+
+// Random Email
+func RandomEmail() string {
+	// btw, this is the first commit of 2024 Lunar Calendar Year. Happy New Year!
+	return RandomString(8) + "@gmail.com"
+}

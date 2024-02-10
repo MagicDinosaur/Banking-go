@@ -52,3 +52,4 @@ func createRandomAccount(t *testing.T) Accounts {
 	require.NotZero(t, account.CreatedAt)
 	return account
 }
+
